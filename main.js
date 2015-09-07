@@ -31,3 +31,4 @@ console.log(mainFnc.foo);//undefined
 console.log(mainFnc.bar());//bar
 console.log(mainFnc.bar.baz());//undefined, bar, baz
 console.log(typeof mainFnc);//function
+console.log(typeof mainFnc.prototype);//object
