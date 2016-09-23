@@ -28,7 +28,7 @@ mainFnc.bar.baz = function () {
 console.log(mainFnc());//foo, undefined, mainFnc
 console.log(mainFnc.bam());//bam
 console.log(mainFnc.foo);//undefined
-console.log(new mainFnc().foo());//undefined
+console.log(new mainFnc().foo());//foo, undefined, foo
 console.log(mainFnc.bar());//bar
 console.log(mainFnc.bar.baz());//undefined, bar, baz
 console.log(typeof mainFnc);//function
